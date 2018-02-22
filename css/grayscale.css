@@ -182,16 +182,20 @@ a:focus, a:hover {
 .content-section {
   padding-top: 150px;
   padding-bottom: 150px;
-}
-#about {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
   color: white;
- background: url("../img/img.jpg") no-repeat center center scroll;
+  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 
 .download-section {
   color: white;
